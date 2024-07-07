@@ -14,7 +14,7 @@ h1 {
 .card {
   max-width: 300px;
   min-height: 250px;
-  background: #02b875;
+  background: #0276b8;
   padding: 30px;
   border-radius: 3px;
   box-sizing: border-box;
@@ -57,6 +57,9 @@ h1 {
   letter-spacing: 0.5px;
   line-height: .5;
   text-align: center;
+  font-weight: 700;
+ 
+
 }
 
 .card-details{
@@ -75,6 +78,73 @@ h1 {
      margin-left: auto;
      margin-right: auto;
    
+}
+
+.projects_details{
+
+   display: flex;
+   margin: 10px;
+   gap: 20px;
+   text-align: center;
+}
+
+.projects_details>.details>p{
+
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.button_add{
+
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 13px;
+   
+}
+
+.button_add>button{
+
+    padding: 15px;
+    
+}
+
+.button_add>.follow_button{
+
+   color: rgb(41, 40, 40);
+   font-weight: 700;
+   letter-spacing: 0.2;
+   font-size: 1rem;
+   border-radius: 8px;
+   border: none;
+   transition: .8s ease-in-out;
+   cursor: pointer;
+}
+
+.button_add>.follow_button:hover{
+
+  color: #fff;
+  background-color: rgb(41, 40, 40);
+}
+
+.button_add>.hrie_button{
+
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.2;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(41, 40, 40);
+  transition: .8s ease-in-out;
+  cursor: pointer;
+}
+
+.button_add>.hrie_button:hover{
+
+  color: rgb(41, 40, 40);
+  background-color: #fff;
+
 }
 
 
